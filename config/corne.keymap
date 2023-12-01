@@ -26,10 +26,10 @@
 
             label = "Base";
             bindings = <
-&none  &kp Q       &kp W       &kp C        &kp P                    &kp B    &kp J  &kp L        &kp U            &kp Y                   &mt RC(BACKSPACE) BACKSPACE  &none
-&none  &mt LGUI A  &mt LALT R  &mt LSHFT S  &mt LCTRL T              &kp G    &kp M  &mt RCTRL N  &mt RSHIFT E     &mt RALT I              &mt RGUI O                   &none
-&none  &kp Z       &kp X       &kp F        &kp D                    &kp K    &kp V  &kp H        &mt COLON COMMA  &mt EXCLAMATION PERIOD  &mt QUESTION SLASH           &none
-                               &kp ESC      &mt LS(LA(LCTRL)) SPACE  &to 0    &to 0  &sl 1        &kp ESC
+&none  &kp Q  &kp W       &kp C        &kp P                    &kp B    &kp J  &kp L        &kp U            &kp Y                   &mt RC(BACKSPACE) BACKSPACE  &none
+&none  &kp A  &mt LALT R  &mt LSHFT S  &mt LCTRL T              &kp G    &kp M  &mt RCTRL N  &mt RSHIFT E     &mt RALT I              &kp O                        &none
+&none  &kp Z  &kp X       &kp F        &kp D                    &kp K    &kp V  &kp H        &mt COLON COMMA  &mt EXCLAMATION PERIOD  &mt QUESTION SLASH           &none
+                          &kp ESC      &mt LS(LA(LCTRL)) SPACE  &to 0    &to 0  &sl 1        &kp ESC
             >;
         };
 
@@ -67,9 +67,9 @@
 
         navigation_layer {
             bindings = <
-&none  &mt LA(ESCAPE) ESCAPE  &none         &none       &none      &kp C_AC_SEARCH    &kp K_BACK  &kp LC(LS(TAB))  &kp LC(TAB)   &kp K_FORWARD    &trans     &none
-&none  &mt LG(TAB) TAB        &kp LEFT_ALT  &kp LSHFT   &kp LCTRL  &kp DELETE         &kp LEFT    &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT_ARROW  &kp ENTER  &none
-&none  &none                  &none         &none       &none      &none              &kp HOME    &kp PAGE_DOWN    &kp PAGE_UP   &kp END          &none      &none
+&none  &mt LA(ESCAPE) ESCAPE  &none         &none       &none      &kp C_AC_SEARCH    &kp K_BACK  &kp LC(LS(TAB))  &kp LC(TAB)  &kp K_FORWARD  &trans     &none
+&none  &mt LG(TAB) TAB        &kp LEFT_ALT  &kp LSHFT   &kp LCTRL  &kp DELETE         &kp LEFT    &kp DOWN         &kp UP       &kp RIGHT      &kp ENTER  &none
+&none  &none                  &none         &none       &none      &none              &kp HOME    &kp PAGE_DOWN    &kp PAGE_UP  &kp END        &none      &none
                                             &kp LA(F4)  &trans     &trans             &trans      &trans           &trans
             >;
 
