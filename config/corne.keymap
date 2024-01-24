@@ -60,7 +60,7 @@
             bindings = <
 &none  &mt LA(ESCAPE) ESCAPE  &kp C_PLAY_PAUSE      &kp C_PREVIOUS        &kp C_NEXT       &kp UNDER     &kp MINUS  &kp N7  &kp N8  &kp N9  &trans     &none
 &none  &mt LG(TAB) TAB        &kp C_MUTE            &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp PLUS      &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp ENTER  &none
-&none  &to 6                  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp ASTERISK     &kp PERIOD    &kp N0     &kp N1  &kp N2  &kp N3  &trans     &none
+&none  &sl 6                  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp ASTERISK     &kp PERIOD    &kp N0     &kp N1  &kp N2  &kp N3  &trans     &none
                                                     &to 5                 &trans           &trans        &trans     &trans  &to 4
             >;
         };
@@ -102,7 +102,7 @@
             bindings = <
 &none  &bt BT_PRV    &bt BT_NXT    &none         &none         &bt BT_CLR      &sys_reset  &none  &none  &none  &none  &none
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &none       &none  &none  &none  &none  &none
-&none  &none         &none         &none         &none         &none           &none       &none  &none  &none  &none  &none
+&none  &to 6         &none         &none         &none         &none           &none       &none  &none  &none  &none  &none
                                    &none         &none         &trans          &trans      &none  &none
             >;
 
