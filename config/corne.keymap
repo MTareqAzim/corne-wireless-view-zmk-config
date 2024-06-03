@@ -26,10 +26,10 @@
 
             label = "Base";
             bindings = <
-&none  &kp Q  &kp W       &kp C        &kp P                    &kp B    &kp J  &kp L        &kp U            &kp Y                   &kp BACKSPACE       &none
-&none  &kp A  &mt LALT R  &mt LSHFT S  &mt LCTRL T              &kp G    &kp M  &mt RCTRL N  &mt RSHIFT E     &mt RALT I              &kp O               &none
-&none  &kp Z  &kp X       &kp F        &kp D                    &kp K    &kp V  &kp H        &mt COLON COMMA  &mt EXCLAMATION PERIOD  &mt QUESTION SLASH  &none
-                          &kp ENTER    &mt LS(LA(LCTRL)) SPACE  &to 0    &to 0  &sl 1        &kp ESCAPE
+&none  &kp Q  &kp W       &kp C        &kp P                    &kp B              &kp J             &kp L        &kp U            &kp Y                   &kp BACKSPACE       &none
+&none  &kp A  &mt LALT R  &mt LSHFT S  &mt LCTRL T              &mt LEFT_META G    &mt RIGHT_META M  &mt RCTRL N  &mt RSHIFT E     &mt RALT I              &kp O               &none
+&none  &kp Z  &kp X       &kp F        &kp D                    &kp K              &kp V             &kp H        &mt COLON COMMA  &mt EXCLAMATION PERIOD  &mt QUESTION SLASH  &none
+                          &kp ENTER    &mt LS(LA(LCTRL)) SPACE  &to 0              &to 0             &sl 1        &kp ESCAPE
             >;
         };
 
