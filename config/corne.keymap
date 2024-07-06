@@ -42,9 +42,9 @@
 
             label = "Symbol";
             bindings = <
-&none  &kp CAPSLOCK  &kp AT      &kp HASH   &kp PRINTSCREEN  &kp PERCENT          &kp CARET         &kp AMPERSAND         &kp ASTERISK           &kp SEMICOLON      &trans     &none
-&none  &kp TAB       &kp UNDER   &kp GRAVE  &kp SQT          &kp DOUBLE_QUOTES    &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &kp ENTER  &none
-&none  &kp TILDE     &kp DOLLAR  &kp EQUAL  &kp MINUS        &kp PLUS             &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &to 3      &none
+&none  &kp CAPSLOCK  &kp AT      &kp HASH   &kp PRINTSCREEN  &kp PERCENT          &kp CARET         &kp AMPERSAND         &kp ASTERISK           &kp SEMICOLON      &kp DELETE  &none
+&none  &kp TAB       &kp UNDER   &kp GRAVE  &kp SQT          &kp DOUBLE_QUOTES    &kp BACKSLASH     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE           &kp COLON   &none
+&none  &kp TILDE     &kp DOLLAR  &kp EQUAL  &kp MINUS        &kp PLUS             &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &to 3       &none
                                  &trans     &trans           &trans               &trans            &to 2                 &trans
             >;
         };
@@ -58,18 +58,18 @@
 
             label = "Number";
             bindings = <
-&none  &mt LA(ESCAPE) ESCAPE  &kp C_PLAY_PAUSE      &kp C_PREVIOUS        &kp C_NEXT       &kp UNDER     &kp MINUS  &kp N7  &kp N8  &kp N9  &trans     &none
-&none  &mt LG(TAB) TAB        &kp C_MUTE            &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp PLUS      &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp ENTER  &none
-&none  &sl 6                  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp ASTERISK     &kp PERIOD    &kp N0     &kp N1  &kp N2  &kp N3  &trans     &none
-                                                    &to 5                 &trans           &trans        &trans     &trans  &to 4
+&none  &mt LA(ESCAPE) ESCAPE  &kp C_PLAY_PAUSE      &kp C_PREVIOUS        &kp C_NEXT       &kp UNDER     &kp MINUS  &kp N7  &kp N8  &kp N9  &trans  &none
+&none  &mt LG(TAB) TAB        &kp C_MUTE            &kp C_VOLUME_DOWN     &kp C_VOLUME_UP  &kp PLUS      &kp EQUAL  &kp N4  &kp N5  &kp N6  &to 4   &none
+&none  &sl 6                  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp ASTERISK     &kp PERIOD    &kp N0     &kp N1  &kp N2  &kp N3  &trans  &none
+                                                    &to 5                 &trans           &trans        &trans     &trans  &trans
             >;
         };
 
         navigation_layer {
             bindings = <
-&none  &none             &none             &kp LA(LS(ESCAPE))  &kp LA(ESC)        &kp C_AC_SEARCH    &kp K_BACK     &kp LC(LS(TAB))  &kp LC(TAB)  &kp K_FORWARD  &trans     &none
-&none  &kp LEFT_GUI      &kp LEFT_ALT      &kp LSHFT           &kp LCTRL          &kp DELETE         &kp PAGE_UP    &kp LEFT         &kp UP       &kp RIGHT      &kp ENTER  &none
-&none  &kp LG(LA(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(UP))      &kp LA(LG(RIGHT))  &none              &kp PAGE_DOWN  &kp HOME         &kp DOWN     &kp END        &none      &none
+&none  &none             &none             &kp LA(LS(ESCAPE))  &kp LA(ESC)        &kp C_AC_SEARCH    &kp K_BACK     &kp LC(LS(TAB))  &kp LC(TAB)  &kp K_FORWARD  &trans  &none
+&none  &kp LEFT_GUI      &kp LEFT_ALT      &kp LSHFT           &kp LCTRL          &kp DELETE         &kp PAGE_UP    &kp LEFT         &kp UP       &kp RIGHT      &none   &none
+&none  &kp LG(LA(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(UP))      &kp LA(LG(RIGHT))  &none              &kp PAGE_DOWN  &kp HOME         &kp DOWN     &kp END        &none   &none
                                            &kp LA(F4)          &trans             &trans             &trans         &trans           &trans
             >;
 
