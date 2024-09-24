@@ -68,7 +68,7 @@
         navigation_layer {
             bindings = <
 &none  &none             &none             &kp LA(LS(ESCAPE))      &kp LA(ESC)        &kp C_AC_SEARCH    &kp K_BACK     &kp LC(LS(TAB))  &kp LC(TAB)  &kp K_FORWARD  &trans  &none
-&none  &kp LEFT_GUI      &kp LEFT_ALT      &kp LSHFT               &kp LCTRL          &kp DELETE         &kp PAGE_UP    &kp LEFT         &kp UP       &kp RIGHT      &none   &none
+&none  &kp DELETE        &kp LEFT_ALT      &kp LSHFT               &kp LCTRL          &kp LEFT_GUI       &kp PAGE_UP    &kp LEFT         &kp UP       &kp RIGHT      &none   &none
 &none  &kp LG(LA(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(UP))          &kp LA(LG(RIGHT))  &none              &kp PAGE_DOWN  &kp HOME         &kp DOWN     &kp END        &none   &none
                                            &mt LA(LC(DEL)) LA(F4)  &trans             &trans             &trans         &trans           &trans
             >;
