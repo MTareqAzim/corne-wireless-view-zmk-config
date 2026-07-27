@@ -10,7 +10,7 @@
 
 &mt {
     quick-tap-ms = <170>;
-    flavor = "tap-preferred";
+    flavor = "balanced";
 };
 
 / {
